@@ -1,0 +1,17 @@
+//****************************************
+//******  lib组件公共gradle配置  *******
+//****************************************
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.kotlinStdlibJdk8
+    testImplementation rootProject.ext.junit
+}
+
+sourceCompatibility = rootProject.ext.javaSourceCompatibility
+targetCompatibility = rootProject.ext.javaTargetCompatibility
+
+
+
+
