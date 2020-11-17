@@ -2,4 +2,4 @@ rootProject.name = "base-dev-design"
 
 include ':base-dev-design-00-app',
         ':base-dev-design-01-uml',
-        ':base-dev-design-02-role'
+        ':base-dev-design-02-principle'
